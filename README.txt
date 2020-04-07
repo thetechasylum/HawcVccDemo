@@ -1,0 +1,2 @@
+The Protobuf libraries supplied with this project have been compiled for the x86 platform. When initially loading this project the platform selection defaults to x64, this is not a regular setting in the project. To get the project to compile select the "x86" platform option in the Visual Studios drop down menu.
+Select "Release" mode to enable the Json example.

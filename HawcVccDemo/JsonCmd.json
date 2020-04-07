@@ -1,0 +1,126 @@
+{
+  "seqNum": 21,
+  "displayCmd": {
+    "setDisplayCfg": {
+      "reportParamVals": true,
+      "reportErrStr": true,
+      "feedSrcs": [],
+      "mainOverlay": {
+        "viewPortID": 0,
+        "createScreen": {
+          "components": [
+            {
+              "objectName": "rectangle",
+              "rectangle": {
+                "properties": [
+                  { "visible": true },
+                  { "x": 10 },
+                  { "y": 10 },
+                  { "width": 100 },
+                  { "height": 80 },
+                  { "color": "Transparent" },
+                  { "borderWidth": 12 },
+                  { "borderColor": "Blue" }
+                ]
+              }
+            },
+            {
+              "objectName": "image",
+              "image": {
+                "properties": [
+                  { "visible": true },
+                  { "x": 100 },
+                  { "y": 100 },
+                  { "width": 200 },
+                  { "height": 300 },
+                  { "source": "Test.png" },
+                  { "fillMode": "Stretch" },
+                  { "opacity": 1 }
+                ]
+              }
+            },
+            {
+              "objectName": "toolList",
+              "fileList": {
+                "properties": [
+                  { "item": "Test.png" },
+                  { "item": "Test.png" },
+                  { "item": "Test.png" }
+                ]
+              }
+            },
+            {
+              "objectName": "toolbar",
+              "toolbar": {
+                "properties": [
+                  { "visible": true },
+                  { "x": 0 },
+                  { "y": 0 },
+                  { "width": 210 },
+                  { "height": 100 },
+                  { "options": "toolList" },
+                  { "iconsSpacing": 5 },
+                  { "margins": 10 },
+                  { "isVertical": false },
+                  { "backColor": "Blue" },
+                  { "selected": 1 },
+                  { "selectedColor": "Red" },
+                  { "selectedBorderColor": "Black" },
+                  { "selectedBorderWidth": 3 }
+                ]
+              }
+            },
+            {
+              "objectName": "menuList",
+              "list": {
+                "properties": [
+                  { "item": "Ben Smith" },
+                  { "item": "Brodie Retalick" },
+                  { "item": "K Read" }
+                ]
+              }
+            },
+            {
+              "objectName": "menu",
+              "menu": {
+                "properties": [
+                  { "visible": true },
+                  { "x": 200 },
+                  { "y": 200 },
+                  { "width": 100 },
+                  { "itemHeight": 10 },
+                  { "options": "menuList" },
+                  { "highlightText": false },
+                  { "backColor": "Blue" },
+                  { "textColor": "White" },
+                  { "selectedColor": "Red" },
+                  { "selected": 1 }
+                ]
+              }
+            },
+            {
+              "objectName": "label",
+              "text": {
+                "properties": [
+                  { "visible": true },
+                  { "text": "Hello World!!!" },
+                  { "x": 1 },
+                  { "y": 50 },
+                  { "width": 300 },
+                  { "height": 10 },
+                  { "wrapMode": "WordWrap" },
+                  { "textFormat": "RichText" },
+                  { "color": "Red" },
+                  { "fontPointSize": 22 }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "viewFeeds": [],
+      "viewWindows": [],
+      "viewOverlays": []
+    }
+  }
+}
